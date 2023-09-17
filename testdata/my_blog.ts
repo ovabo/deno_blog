@@ -7,7 +7,7 @@ blog({
   avatar: "https://deno-avatar.deno.dev/avatar/blog.svg",
   avatarClass: "rounded-full",
   links: [
-    { title: "bot@deno.com", url: "mailto:bot@gh.com" },
+    { title: "bot@deno.com", url: "mailto:bot@ghb.com" },
     { title: "GitHub", url: "https://github.com/" },
     { title: "Twitter", url: "https://twitter.com/" },
   ],
