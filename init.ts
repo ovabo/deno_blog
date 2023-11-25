@@ -39,7 +39,7 @@ blog({
   // header: <header>Your custom header</header>,
   // section: (post: Post) => <section>Your custom section with access to Post props.</section>,
   // footer: <footer>Your custom footer</footer>,
-  avatar: "https://deno-avatar.deno.dev/avatar/blog.svg",
+  avatar: "https://deno-avatar.deno.dev/avatar/c5c732.svg",
   avatarClass: "rounded-full",
   author: "An author",
 
