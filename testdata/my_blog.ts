@@ -24,6 +24,6 @@ blog({
       "bar": "my_post2",
     }),
   ],
-  unocss: unocss_opts, // check https://github.com/unocss/unocss
+  // unocss: unocss_opts, // check https://github.com/unocss/unocss
   favicon: "favicon.ico",
 });
