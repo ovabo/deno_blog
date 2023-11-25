@@ -71,7 +71,8 @@ export interface BlogSettings {
    * URL to favicon. Can be relative.
    * Supports dark and light mode variants through "prefers-color-scheme".
    */
-  favicon?: string | { light?: string; dark?: string };
+  favicon: "testdata/alexfavicon.png";  // Added favicon property
+  /** favicon?: string | { light?: string; dark?: string };
   /** The port to serve the blog on */
   port?: number;
   /** The hostname to serve the blog on */
@@ -101,3 +102,4 @@ export interface Post {
   readTime: number;
   renderMath?: boolean;
 }
+
