@@ -1,5 +1,5 @@
 import blog, { ga, redirects } from "https://deno.land/x/blog/blog.tsx";
-import { unocss_opts } from "./unocss.ts";
+// import { unocss_opts } from "./unocss.ts";
 
 blog({
   author: "Dino",
