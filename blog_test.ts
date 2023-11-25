@@ -14,7 +14,7 @@ const BLOG_SETTINGS = await configureBlog(BLOG_URL, false, {
   author: "The author",
   title: "Test blog",
   description: "This is some description.",
-  lang: "en-GB",
+  lang: "en-US",
   middlewares: [
     redirects({
       "/to_second": "second",
@@ -49,7 +49,7 @@ Deno.test("index page", async () => {
   assertEquals(resp.status, 200);
   assertEquals(resp.headers.get("content-type"), "text/html; charset=utf-8");
   const body = await resp.text();
-  assertStringIncludes(body, `<html lang="en-GB">`);
+  assertStringIncludes(body, `<html lang="en-US">`);
   assertStringIncludes(
     body,
     `<link rel="canonical" href="https://blog.deno.dev/" />`,
