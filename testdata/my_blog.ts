@@ -4,7 +4,7 @@ blog({
   author: "alexander",
   title: "Beyond the Seen",
   description: "From Tangible Threats to Metaphysical Battles.",
-  avatar: "https://deno-avatar.deno.dev/avatar/c5c732.svg",
+  avatar: "Alex-Ovabor-Green.png",
   avatarClass: "rounded-full",
   links: [
     { title: "bot@deno.com", url: "mailto:bot@ghb.com" },
