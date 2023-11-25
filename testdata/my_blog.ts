@@ -15,7 +15,7 @@ blog({
   lang: "en",
   // localised format based on https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat
   dateFormat: (date) =>
-    new Intl.DateTimeFormat("en-GB", { dateStyle: "long" }).format(date),
+    new Intl.DateTimeFormat("en-US", { dateStyle: "long" }).format(date),
   middlewares: [
     ga("UA-XXXXXXXX-X"),
     redirects({
@@ -25,5 +25,5 @@ blog({
     }),
   ],
   // unocss: unocss_opts, // check https://github.com/unocss/unocss
-  favicon: "favicon.ico",
+  favicon: "alexfavicon.png",
 });
